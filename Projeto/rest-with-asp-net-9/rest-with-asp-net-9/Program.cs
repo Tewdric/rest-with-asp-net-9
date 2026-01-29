@@ -1,4 +1,8 @@
+using rest_with_asp_net_9.Service;
+
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddScoped<MathService>();
+
 
 // Add services to the container.
 
